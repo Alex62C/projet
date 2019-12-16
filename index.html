@@ -11,28 +11,31 @@
 </head>
 <body>
 <div class="container-fluid">
-    <header class="entete col-lg-12 text-center ">
-        <h1>Coupé Alexis</h1>
-        <h2>Développeur Web & Web mobile</h2>
-        <p>Recherche de stage</p>
-        <address>81 Rue Vulgan 62690 Mingoval</address>
-        <p><a href="mailto:votrenom@bidule.com">coupealexis62@gmail.com</a></p>
+    <header class="entete row text-center ">
+        <div class="col-lg-12">
+            <h1>Coupé Alexis</h1>
+            <h2>Développeur Web & Web mobile</h2>
+            <p>Recherche de stage</p>
+            <a href="index.html"  download=" ">Télécharger mon CV</a>
 
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #F7DC6F">
-                <a class="navbar-brand" href="#">Mon CV</a>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark col-lg-12" style=" ">
+                <a class="navbar-brand text-light" href="#">Mon CV</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Expériences <span class="sr-only">(current)</span></a>
+                        <a class="nav-link text-light" href="#">Expériences <span class="sr-only"></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Formation</a>
+                        <a class="nav-link text-light" href="#">Formation</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Intérêts</a>
+                        <a class="nav-link text-light" href="#">Intérêts</a>
                     </li>
+
              </nav>
     </header>
     <h2>Mon parcours</h2>
@@ -48,44 +51,52 @@
                     <li class="list-group-item">expérience 5</li>
                 </ul>
             </article>
-            <article>
-                <h3 id="formation">Formation</h3>
-                <ul class="list-group">
-                    <li class="list-group-item">Formation 1</li>
-                    <li class="list-group-item">Formation 2</li>
-                    <li class="list-group-item">formation 3</li>
-                </ul>
-            </article>
-            <article >
-                <h3 id="interets">Intérêts</h3>
-                <ul class="list-group">
-                    <li class="list-group-item">Intérêt 1</li>
-                    <li class="list-group-item">intérêt 2</li>
-                    <li class="list-group-item">Intérêt 3</li>
-                </ul>
-            </article>
-
         </section>
         <aside class="col-lg-5 ">
             <h3 id="competences">Compétences</h3>
             <ol class="list-group">
-                <div class="progress mt-2">
-                    <li class="list-group-item progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Compétence 1</li>
+                <div class="progress mt-2" style="height: 3vh;">
+                    <li class="progress-bar w-50 bg-success" role="progressbar" style="width: 50% " aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Compétence 1</li>
                 </div>
-                <div class="progress mt-2">
-                    <li class="list-group-item progress-bar bg-info" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Compétence 2</li>
+                <div class="progress mt-2" style="height: 3vh;">
+                    <li class="progress-bar w-25 bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Compétence 2</li>
                 </div>
-                <div class="progress mt-2">
-                    <li class="list-group-item progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">compétence 3</li>
+                <div class="progress mt-2" style="height: 3vh;">
+                    <li class="progress-bar w-75 bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">compétence 3</li>
+                </div>
+                <div class="progress mt-2" style="height: 3vh;">
+                    <li class="progress-bar w-100 bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">compétence 4</li>
+                </div>
+                <div class="progress mt-2" style="height: 3vh;">
+                    <li class="progress-bar w-50 bg-success" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">compétence 5</li>
                 </div>
             </ol>
         </aside>
     </div>
-    <footer class=" col-lg-12 text-center bg-info bg-dark text-light">
-        <a href="" target="blank" title="Lnk">
-            <img src="" alt="Lnk" title="Mon profil" />
-        </a>
-        <p>Contact</p>
+    <div class="row">
+    <article class="col-lg-7">
+        <h3 id="formation">Formation</h3>
+        <ul class="list-group">
+            <li class="list-group-item">Formation 1</li>
+            <li class="list-group-item">Formation 2</li>
+            <li class="list-group-item">formation 3</li>
+        </ul>
+    </article>
+    <article class="col-lg-5">
+        <h3 id="interets">Intérêts</h3>
+        <ul class="list-group">
+            <li class="list-group-item">Intérêt 1</li>
+            <li class="list-group-item">intérêt 2</li>
+            <li class="list-group-item">Intérêt 3</li>
+        </ul>
+    </article>
+    </div>
+    <footer class=" row text-center bg-info bg-dark text-ligh fixed-bottom">
+        <div class="col-lg-12 text-light">
+        <h4>Contact</h4>
+            <adresse>81 , Rue Vulgan 62690 Mingoval</adresse>
+            <p><a href="mailto:votrenom@bidule.com">coupealexis62@gmail.com</a></p>
+        </div>
     </footer>
 </div>
 </body>

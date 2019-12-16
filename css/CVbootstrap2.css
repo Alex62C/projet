@@ -9,10 +9,14 @@ body{
 
 header{
     width: 100vw;
-    background-image: url("../Images/fond.jfif");
+    background-image: url("../Images/fond_gris2.jfif");
     background-size: cover;
 }
 
 h2 {
     text-align: center;
+}
+
+footer{
+    height: 10vh;
 }
